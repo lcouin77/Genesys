@@ -1,4 +1,3 @@
-
 const dxSupportBtnColor = document.currentScript.getAttribute('dxSupportBtnColor');
 const dxSupportBtnBgColor = document.currentScript.getAttribute('dxSupportBtnBgColor');
 const dxDeploymentId = document.currentScript.getAttribute('dxDeploymentId');
