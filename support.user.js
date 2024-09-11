@@ -63,10 +63,10 @@ var dxSupport = (function() {
 				.dx-overlay-content {
 				position: relative;
 				top: 10%; /* 25% from the top */
-				width: 80%; /* 100% width */
+				width: 100%; /* 80% width */
 				text-align: center; /* Centered text/links */
-				left:10%;
-				height: 80%;
+				left:0%; /* 10 */
+				height: 90%; /* 80 */
 				min-height: 80%;
 				margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
 				box-shadow: 10px 10px 5px #696969;
@@ -91,9 +91,9 @@ var dxSupport = (function() {
 			/* Position the close button (top right corner) */
 			.dx-overlay .closebtn {
 					position: absolute;
-					top: 20px;
-					right: 45px;
-					font-size: 60px;
+					top: 0px; /* 20 */
+					right: 0px; /* 45 */
+					font-size: 40px; /* 60 */
 				}
 
 			/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
